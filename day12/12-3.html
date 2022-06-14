@@ -8,17 +8,24 @@
     <style>
         .father {
             width: 600px;
-            height: 600px;
-            background-color: beige;
+            height: 6000px;
+            background-color: purple;
+            position: relative;
             margin: 0 auto;
         }
         .one {
             height: 100px;
-            background-color: red;
+            background-color: yellowgreen;
         }
+        /*绝对定位元素会变成行内块元素*/
+        /*如果父元素有相对定位，它的left,top是相对于父元素*/
         .two {
             height: 100px;
-            background-color: green;
+            width: 100px;
+            background-color: burlywood;
+            position: absolute;
+            left: 0;
+            top: 0;
         }
     </style>
 </head>
