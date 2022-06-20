@@ -21,7 +21,10 @@
         .form {
             position: fixed;
             padding: 30px;
-            background-color: beige;
+            background-color: #fff;
+            right: 40px;
+            top: 50%;
+            margin-top: -150px;
         }
         .title {
             color:cyan;
@@ -32,13 +35,15 @@
             height: 28px;
             width: 160px;
             outline: 1px solid red;
+            border: none;
         }
         .usr:focus, .pwd:focus {
-            border: 1px solid red;
+            border: 1px solid blue;
             outline: none;
         }
         .usr, .pwd {
             margin-bottom: 20px;
+            padding: 0 10px;
         }
         .remember {
             color: #666;
@@ -46,12 +51,12 @@
         .button {
             margin-top: 20px;
             height: 28px;
-            width: 160px;
+            width: 180px;
             background-color:skyblue;
             border: none;
             color: #fff;
             font-size: 16px;
-            letter-spacing: 10px;
+            letter-spacing: 5px;
             cursor: pointer;
         }
     </style>
