@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,22 +23,49 @@
             padding: 30px;
             background-color: beige;
         }
-        .usr,.pwd {
-            height: 48px;
-            width: 100px;
+        .title {
+            color:cyan;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        .usr, .pwd {
+            height: 28px;
+            width: 160px;
+            outline: 1px solid red;
+        }
+        .usr:focus, .pwd:focus {
+            border: 1px solid red;
+            outline: none;
+        }
+        .usr, .pwd {
+            margin-bottom: 20px;
+        }
+        .remember {
+            color: #666;
+        }
+        .button {
+            margin-top: 20px;
+            height: 28px;
+            width: 160px;
+            background-color:skyblue;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            letter-spacing: 10px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <form class="from">
-        <h2>欢迎登陆教师培训平台</h2>
+    <form class="form">
+        <h2 class="title">欢迎登陆教师培训平台</h2>
         <input placeholder="用户名" class="usr"><br>
         <input placeholder="密码" type="password" class="pwd"><br>
         <label for="">
             <input type="checkbox">
-            记住我的登陆状态
+            <span class="remember">记住我的登陆状态</span>
         </label><br>
-        <input type="submit" value="登陆">
+        <input type="submit" value="登陆" class="button">
     </form>
 </body>
 </html>
