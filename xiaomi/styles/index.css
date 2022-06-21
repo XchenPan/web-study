@@ -1,14 +1,19 @@
 #nav-box {
     background-color: rgb(51, 51, 51);
-    line-height: 36px;
+    line-height: 11px 0;
 }
 #nav-box a {
     display: inline-block;
     padding: 0 5px;
     font-size: 14px;
     color: #b0b0b0b0;
-    /* border-right: 1px solid #424242; */
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid #424242;
+}
+#nav-box a:hover {
+    color:  #ffffff;
+}
+#nav-box .no-border {
+    border-right: none;
 }
 #nav {
     width: 1260px;
