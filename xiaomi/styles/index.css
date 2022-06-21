@@ -34,3 +34,19 @@
 .clear {
     clear: both;
 }
+#header {
+    width: 1260px;
+    margin: 0 auto;
+    background-color: #424242;
+}
+.header-left {
+    display: inline-block;
+    width: 250px;
+}
+.header-center {
+    display: inline-block;
+    width: 660px;
+}
+.header-right {
+    display: inline-block;
+}
