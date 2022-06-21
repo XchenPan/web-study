@@ -1,0 +1,7 @@
+/*重置html默认样式*/
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+}
