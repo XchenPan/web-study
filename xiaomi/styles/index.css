@@ -37,7 +37,8 @@
 #header {
     width: 1260px;
     margin: 0 auto;
-    /* background-color: #424242; */
+    margin-top: 20px;
+    background-color: #424242;
 }
 .header-left {
     display: inline-block;
@@ -46,6 +47,7 @@
 }
 .header-left img {
     width: 56px;
+    vertical-align: middle;
 }
 .header-center {
     display: inline-block;
@@ -63,15 +65,38 @@
 }
 .header-right {
     display: inline-block;
-    width: 300px;
+    width: 342px;
     font-size: 16px;
+    vertical-align: middle;
 }
 .header-right input {
     border: 1px solid #ddd;
     line-height: 48px;
     width: 200px;
     padding: 0 10px;
+    font-size: 16px;
 }
 .header-right input:focus {
     outline: none;
+}
+.header-right button {
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    line-height: 48px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.header-right .search {
+    font-size: 0;
+}
+
+
+.banner {
+    background-color: red;
+    margin: 0 auto;
+    width: 1260px;
+}
+.banner ul {
+    width: 250px;
+    background-color: #999
 }
