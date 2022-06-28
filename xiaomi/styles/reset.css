@@ -2,10 +2,7 @@
 a {
     text-decoration: none;
 }
-body ul {
-    margin: 0;
-}
-body {
+body,ul {
     margin: 0;
 }
 ul {
