@@ -38,13 +38,11 @@
     width: 1260px;
     margin: 0 auto;
     margin-top: 20px;
-    /* background-color: #424242; */
 }
 .header-left {
     display: inline-block;
     width: 250px;
     font-size: 16px;
-    /* background-color: red; */
 }
 .header-left img {
     width: 56px;
@@ -54,7 +52,6 @@
     display: inline-block;
     width: 726px;
     font-size: 16px;
-    /* background-color: yellowgreen; */
 }
 .header-center span {
     display: inline-block;
@@ -70,7 +67,6 @@
     width: 276px;
     font-size: 16px;
     vertical-align: middle;
-    /* background-color: blue; */
 }
 .header-right input {
     border: 1px solid #ddd;
