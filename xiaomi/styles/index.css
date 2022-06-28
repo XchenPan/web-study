@@ -97,5 +97,6 @@
 }
 .banner ul {
     width: 250px;
-    background-color: #999
+    background-color: #999;
+    line-height: 36px;
 }
