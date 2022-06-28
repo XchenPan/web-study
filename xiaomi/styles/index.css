@@ -91,12 +91,35 @@
 
 
 .banner {
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
     width: 1260px;
+    padding: 20px;
 }
 .banner ul {
     width: 250px;
     background-color: #999;
     line-height: 36px;
+    color: #ffffff;
+    padding: 20px 0;
+    position: relative;
+}
+.dialog {
+    position: absolute;
+    background-color: green;
+    width: 1010px;
+    top: 0;
+    bottom: 0;
+    left: 250px;
+}
+.banner li {
+    text-indent: 36px;
+}
+.banner li:hover {
+    background-color: rgb(255, 106, 0);
+    cursor: pointer;
+}
+.arrow {
+    float: right;
+    margin-right: 30px;
 }
